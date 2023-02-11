@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clivil/static/css/main.ee3cbc60.css",
+    "main.js": "/clivil/static/js/main.fdf0f225.js",
+    "index.html": "/clivil/index.html",
+    "main.ee3cbc60.css.map": "/clivil/static/css/main.ee3cbc60.css.map",
+    "main.fdf0f225.js.map": "/clivil/static/js/main.fdf0f225.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee3cbc60.css",
+    "static/js/main.fdf0f225.js"
+  ]
+}
