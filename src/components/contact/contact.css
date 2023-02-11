@@ -1,0 +1,98 @@
+.contact{
+    background-image: url('https://htmldemo.net/mitech/assets/images/bg/home-appointment-contact-bg-image.webp');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.contact .contact__form .title{
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+@media only screen and (max-width: 769px){
+    .contact .contact__form .title{font-size: 28px;}
+}
+.contact .contact__form .subTitle{
+    color: #555;
+    font-size: 18px;
+    /* font-weight: 600; */
+    margin: 0 0 40px 0;
+  }
+  @media only screen and (max-width: 769px){
+    .contact .contact__form .subTitle{font-size: 15px;}
+}
+  .contact .contact__form form input,
+  .contact .contact__form form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    padding: 15px 20px;
+    border: 1px solid #323a8069;
+    outline: none;
+  }
+  .contact .contact__form form textarea{height: 150px;}
+  .contact .contact__form form .contact__us{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #03228F 0%, #0E73E4 100%);
+    color: #FFF;
+    padding: 18px 45px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+}
+@media only screen and (max-width: 769px){
+   .contact .contact__form form .contact__us{
+        font-size: 16px;
+        padding: 15px 38px;
+    }
+}
+.contact__information{
+    margin-left: 40px;
+}
+@media only screen and (max-width: 991px){
+    .contact__information{
+        margin: 50px 0 0 0;
+     }
+ }
+.contact__information .alt__title{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+@media only screen and (max-width: 769px){
+    .contact__information .alt__title{
+        font-size: 14px;
+     }
+ }
+.contact__information .phone__number{
+    color: #063CAA;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+@media only screen and (max-width: 769px){
+    .contact__information .phone__number{
+        font-size: 25px;
+     }
+ }
+.contact__information .text{
+    color: #555;
+    margin: 0 0 20px 0;
+}
+.contact__information .address{
+    color: #063CAA;
+    cursor: pointer;
+}
+.contact__information .address .address__icon{
+   width: 55px;
+   height: 55px;
+   border-radius: 50%;
+   background-color: #f6f2ed;
+   margin-right: 15px;
+}

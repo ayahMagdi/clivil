@@ -1,0 +1,26 @@
+.section__header{
+    width: 560px;
+    margin: 0 auto 70px;
+}
+@media only screen and (max-width: 991px){
+    .section__header{width: auto;}
+}
+.section__header .alt__title{
+    color: #063CAA;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+@media only screen and (max-width: 769px){
+    .section__header .alt__title{font-size: 14px}
+}
+.section__header .title{
+    color: #000;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+@media only screen and (max-width: 769px){
+    .section__header .title{font-size: 28px;line-height: 35px;}
+}

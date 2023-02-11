@@ -1,0 +1,63 @@
+.footer{
+    padding: 40px 0;
+    background-color: #F8F8F8;
+}
+.footer .copyright{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+@media only screen and (max-width: 991px){
+    .footer .copyright{
+        text-align: center;
+        margin-bottom: 30px;
+     }
+     .social__links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+ }
+ul.social{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+ }
+ .social__item{
+     cursor: pointer;
+ }
+ .social__item .MuiSvgIcon-root{
+     width:30px;
+     height: 30px;
+     border-radius: 50%;
+     /* color: #FFF; */
+     transition: .3s ease-in-out;
+     padding: 6px;
+     /* font-size: 20px!important; */
+ }
+  .social__item.facebook .MuiSvgIcon-root{
+     color: #FFF;
+     border: 1px solid #3b5998;
+     background-color: #3b5998;
+ }
+ .social__item.google .MuiSvgIcon-root{
+     color: #FFF;
+     border: 1px solid #ea4335;
+     background-color: #ea4335;
+ }
+ .social__item.linkedin .MuiSvgIcon-root{
+     color: #FFF;
+     border: 1px solid #0a66c2;
+     background-color: #0a66c2;
+ }
+ .social__item.twitter .MuiSvgIcon-root{
+     color: #FFF;
+     border: 1px solid #1da1f2;
+     background-color: #1da1f2;
+ }
+ .social__item.whatsapp .MuiSvgIcon-root{
+     color: #FFF;
+     border: 1px solid #25d366;
+     background-color: #25d366;
+ } 

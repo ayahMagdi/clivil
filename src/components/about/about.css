@@ -1,0 +1,78 @@
+.aboutus{
+    padding: 100px 0;
+    background-image: url('https://demo.casethemes.net/itfirm/wp-content/uploads/2022/12/h7-bg-section3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.alt-bg__img{
+    position: absolute;
+    bottom: -15%;
+    left: -10%;
+}
+.img__container{margin-right: 50px;}
+.about__img img{
+    width: 100%;
+}
+@media only screen and (max-width: 769px){
+    .alt-bg__img{z-index: -1; opacity: .3;bottom: 0;}
+    img{width: 50%;}
+}
+@media only screen and (max-width: 991px){
+    .about__img{
+        margin-bottom: 50px;
+    }
+    .img__container{
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .about__img img{
+        width: 80%;
+    }
+    .content__container{text-align: center;}
+}
+.content__container .section__header{
+    margin: 0!important;
+    width: 100%;
+}
+.content__container .text{
+    line-height: 28px;
+    margin: 0 0 30px 0;
+    color: #454545;
+}
+.alt__section{
+    border-bottom: 1px solid #E7E6E9;
+    padding-bottom: 30px;
+    width: 85%;
+}
+@media only screen and (max-width: 991px){
+    .alt__section{margin: 0 auto;}
+}
+.alt__section .MuiSvgIcon-root{
+  color: #063CAA;
+  font-size: 40px;
+}
+.alt__section .seciton__title{
+    color: #000;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 991px){
+    .alt__section .seciton__title{text-align: left;}
+}
+@media only screen and (max-width: 769px){
+    .alt__section .seciton__title{font-size: 16px; line-height: 20px;}
+}
+.about__content .btn__contact{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #03228F 0%, #0E73E4 100%);
+    color: #FFF;
+    padding: 15px 42px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+}
